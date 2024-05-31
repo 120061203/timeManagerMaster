@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { registerLicense } from '@syncfusion/ej2-base';
 // import * as React from 'react';
 // import * as ReactDOM from 'react-dom';
-
+registerLicense('ORg4AjUWIQA/Gnt2VVhhQlFaclhJWHxMYVF2R2FJeFRycF9FaEwgOX1dQl9hSXpTcEVmWn9feHVRQWY=');
 
 
 const root = ReactDOM.createRoot(
