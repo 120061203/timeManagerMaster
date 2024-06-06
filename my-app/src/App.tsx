@@ -59,11 +59,11 @@ function App() {
 
       // loop through the eventData to see if it have duplicates
       for (let prevEventData of eventData) {
-        if (i === 1) {
-          if (tag === "none") {
-            currentSTime = endTime;
-          }
-        }
+        // if (i === 1) {
+        //   if (tag === "none") {
+        //     currentSTime = endTime;
+        //   }
+        // }
 
         if (startTime > eTime || endTime > eTime) {
           alert("範圍內時間已滿，請重新選擇");
@@ -143,7 +143,7 @@ function App() {
   return (
     <div>
       <ScheduleComponent
-        className="h-full pb-[13em]"
+        className="h-full pb-[18em]"
         currentView="Week"
         selectedDate={new Date()}
         eventSettings={eventSettings}
@@ -212,34 +212,24 @@ function App() {
         </div>
         <div className="flex justify-between gap-3">
           <label>
-            開始日期:
+            作業開始日期:
             <input
-              placeholder="開始日期"
+              placeholder="作業開始日期"
               type="datetime-local"
               className="border rounded-md mx-1"
               onChange={(e) => setSTime(new Date(e.target.value))}
             />
           </label>
           <label>
-            結束日期:
+            作業截止日期:
             <input
-              placeholder="結束日期"
+              placeholder="作業截止日期"
               type="datetime-local"
               className="border rounded-md mx-1"
               onChange={(e) => setETime(new Date(e.target.value))}
             />
           </label>
-          <label>
-            隔天:
-            <input
-              name="tag"
-              placeholder="隔天"
-              type="radio"
-              id="day"
-              className="border rounded-md mx-1"
-              onChange={(e) => setTag(e.target.id)}
-            />
-          </label>
+          
           <label>
             只有上午(6:00-12:00):
             <input
@@ -269,6 +259,17 @@ function App() {
               id="night"
               placeholder="只有晚上(18:00後)"
               type="radio"
+              className="border rounded-md mx-1"
+              onChange={(e) => setTag(e.target.id)}
+            />
+          </label>
+          <label>
+            隔天:
+            <input
+              name="tag"
+              placeholder="隔天"
+              type="radio"
+              id="day"
               className="border rounded-md mx-1"
               onChange={(e) => setTag(e.target.id)}
             />
