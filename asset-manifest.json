@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/120061203/timeManagerMaster.git/static/css/main.81f4f495.css",
+    "main.js": "/120061203/timeManagerMaster.git/static/js/main.365155f8.js",
+    "static/js/453.ed3810f9.chunk.js": "/120061203/timeManagerMaster.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/120061203/timeManagerMaster.git/index.html",
+    "main.81f4f495.css.map": "/120061203/timeManagerMaster.git/static/css/main.81f4f495.css.map",
+    "main.365155f8.js.map": "/120061203/timeManagerMaster.git/static/js/main.365155f8.js.map",
+    "453.ed3810f9.chunk.js.map": "/120061203/timeManagerMaster.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81f4f495.css",
+    "static/js/main.365155f8.js"
+  ]
+}
