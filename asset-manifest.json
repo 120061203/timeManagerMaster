@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/120061203/timeManagerMaster.git/static/css/main.81f4f495.css",
-    "main.js": "/120061203/timeManagerMaster.git/static/js/main.365155f8.js",
-    "static/js/453.ed3810f9.chunk.js": "/120061203/timeManagerMaster.git/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/120061203/timeManagerMaster.git/index.html",
-    "main.81f4f495.css.map": "/120061203/timeManagerMaster.git/static/css/main.81f4f495.css.map",
-    "main.365155f8.js.map": "/120061203/timeManagerMaster.git/static/js/main.365155f8.js.map",
-    "453.ed3810f9.chunk.js.map": "/120061203/timeManagerMaster.git/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/timeManagerMaster/static/css/main.81f4f495.css",
+    "main.js": "/timeManagerMaster/static/js/main.ed5eac6b.js",
+    "static/js/453.ed3810f9.chunk.js": "/timeManagerMaster/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/timeManagerMaster/index.html",
+    "main.81f4f495.css.map": "/timeManagerMaster/static/css/main.81f4f495.css.map",
+    "main.ed5eac6b.js.map": "/timeManagerMaster/static/js/main.ed5eac6b.js.map",
+    "453.ed3810f9.chunk.js.map": "/timeManagerMaster/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81f4f495.css",
-    "static/js/main.365155f8.js"
+    "static/js/main.ed5eac6b.js"
   ]
 }
